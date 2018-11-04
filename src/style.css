@@ -1,0 +1,39 @@
+/* CSS Document */
+
+
+/* Styling for the body */
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Styling for the navigation */
+
+nav {
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: -10px;      /*Fulhack, vad ska man gör istället?*/
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+  transition: all 200ms;
+  padding: 20px 60px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background: #555;
+  color: #fff;
+}

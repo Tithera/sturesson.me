@@ -1,0 +1,14 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp html"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-watch": "^5.0.1",
+    "posthtml": "^0.11.3",
+    "posthtml-include": "^1.2.0"
+  }
+}
