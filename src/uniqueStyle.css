@@ -3,25 +3,45 @@
 
 /* Styling for the Index section */
 
-section {
-  background-color: #e6e6e6;
+.indexSec {
+  display: flex;
 }
 
 
 .imageDiv {
-  background-color: yellow;
   background-image: url(imesnow.jpg);
-  height: 700px;
+  height: 630px;
   width: 400px;
   background-size: cover;
-  display: inline-block;
+  background-position: center;
 }
 
 .textDiv {
-  display: inline-block;
-
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+hgroup {
+  position: relative;
+}
+
+.bigName {
+  font-size: 200px;
+  left: 50px;
+  top: -270px;
+  opacity: 0.05;
+  position: absolute;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.smallName {
+  font-size: 50px;
+}
 
 
 /**/
