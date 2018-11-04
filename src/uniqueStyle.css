@@ -1,0 +1,27 @@
+/* CSS Document for the sections */
+
+
+/* Styling for the Index section */
+
+section {
+  background-color: #e6e6e6;
+}
+
+
+.imageDiv {
+  background-color: yellow;
+  background-image: url(imesnow.jpg);
+  height: 700px;
+  width: 400px;
+  background-size: cover;
+  display: inline-block;
+}
+
+.textDiv {
+  display: inline-block;
+
+}
+
+
+
+/**/

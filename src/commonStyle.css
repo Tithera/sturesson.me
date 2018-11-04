@@ -1,27 +1,18 @@
-/* CSS Document */
+/* CSS Document for body, header and footer */
 
 
 /* Styling for the body */
 body {
   font-family: "Courier New", Courier, monospace;
+  margin: 0;
 }
+
 
 /* Styling for the navigation */
 
 nav {
   width: auto;
-}
-
-nav ul {
-  list-style: none;
   text-align: right;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: -10px;      /*Fulhack, vad ska man gör istället?*/
 }
 
 nav a {
@@ -31,9 +22,27 @@ nav a {
   transition: all 200ms;
   padding: 20px 60px;
   display: inline-block;
+  margin-left: -10px;
 }
 
 nav a:hover {
   background: #555;
   color: #fff;
+}
+
+
+/* Styling for the footer */
+
+footer {
+  width: auto;
+  height: 50px;
+  color: #333;
+  display:flex;
+  align-items: center;
+}
+
+footer div {
+  text-align: right;
+  flex: 1;
+  padding: 0 10px 0 0;
 }
