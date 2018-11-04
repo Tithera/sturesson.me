@@ -30,18 +30,23 @@ hgroup {
 }
 
 .bigName {
-  font-size: 200px;
-  left: 50px;
-  top: -270px;
+  font-size: 130px;
+  left: 65px;
+  top: -240px;
   opacity: 0.05;
   position: absolute;
   white-space: nowrap;
   user-select: none;
+  font-family: 'Rock Salt', cursive;
+  z-index: -1;
 }
 
 .smallName {
-  font-size: 50px;
+  font-size: 40px;
+  font-family: 'Rock Salt', cursive;
 }
 
 
-/**/
+/*
+font-family: 'KoHo', sans-serif;
+font-family: 'Rock Salt', cursive;*/
