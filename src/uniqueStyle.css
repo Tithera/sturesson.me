@@ -7,7 +7,6 @@
   display: flex;
 }
 
-
 .imageDiv {
   background-image: url(imesnow.jpg);
   height: 630px;
@@ -45,6 +44,32 @@ hgroup {
   font-size: 40px;
   font-family: 'Rock Salt', cursive;
 }
+
+/* Styling for the contact page */
+
+.inthemiddlediv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contactmargin {
+  margin: 10px 0 30px 0;
+}
+
+.formsubject {
+  width: 550px;
+}
+
+.formtext {
+  width: 550px;
+  height: 150px;
+}
+
+.imgcontact {
+  width: 1400px
+}
+
 
 
 /*
